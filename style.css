@@ -13,6 +13,11 @@ table {
     margin-right: auto;
 }
 
+img {
+    height: 500px;
+    width: auto;
+}
+
 button {
     height: 100px;
     width: 300px;
