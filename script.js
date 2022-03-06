@@ -12,12 +12,14 @@ function flash() {
     document.body.style.color = 'black';
 
     if(clicks % 2 == 0){
-        document.getElementById("video").innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'; //Ok heres the real one: 
+        document.getElementById("video1").innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'; //Ok heres the real one: 
+        document.getElementById("video2").innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'; 
         document.getElementById("klotho").src = "images/klothodef.jpg";
         document.getElementById("lachesis").src = "images/lachesisdef.jpg";
         document.getElementById("atropos").src = "images/atroposdef.jpg";
     } else {
-        document.getElementById("video").innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/112xYMZSlBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';//https://
+        document.getElementById("video1").innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/112xYMZSlBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+        document.getElementById("video2").innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/WD0F5-TyEVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
         document.getElementById("klotho").src = "images/klotho.jpg";
         document.getElementById("lachesis").src = "images/lachesis.jpg";
         document.getElementById("atropos").src = "images/atropos.jpg"; 
