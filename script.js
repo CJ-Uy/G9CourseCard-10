@@ -7,7 +7,7 @@ function clicked() {
 }
 
 function flash() {
-    document.getElementById("header").innerHTML="https://tinurl.com/G8Card10-LmaoThisIsntIt";
+    document.getElementById("header").innerHTML="https://tinyurl.com/G8Card10-LmaoThisIsntIt";
     document.body.style.backgroundColor = 'white';
     document.body.style.color = 'black';
 
